@@ -1,0 +1,67 @@
+body{
+    background-color: bisque;
+}
+.guy,kurenai,ausama,kakashi{
+    background-color: burlywood;
+}
+.menu{
+    position: fixed;
+    top: 10px;
+    width:100%;
+    margin-top: 0px;
+    z-index: 10;
+    cursor: pointer;
+    background-color:bisque;
+    text-align: right;
+}
+.links{
+    display: inline;
+    padding-left: 33px;
+    padding-right:55px;
+    font-family:fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: darkgoldenrod;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: deeppink;
+    text-shadow: 3px 3px gainsboro;
+}
+img{
+    width: 50%;
+    height: 350px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin:8px auto;
+}
+img:hover{
+    transform: scale(0.9);
+}
+#myCarousel{
+    background-color: crimson;
+}
+#myCarouselimg{
+    height: 300px;
+    margin-top: 35px;
+}
+.container{
+    text-align: center;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: floralwhite;
+    font-size: 20px;
+}
+.head{
+    text-align: center;
+    text-shadow: 3px;
+    font-family: sans-serif;
+    color: black;
+}
